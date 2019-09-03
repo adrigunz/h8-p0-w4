@@ -6,8 +6,6 @@ function angkaPrima(angka) {
         }
     }
     return true;
-
-
 }
 
 // TEST CASES
