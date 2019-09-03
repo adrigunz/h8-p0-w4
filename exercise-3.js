@@ -1,9 +1,6 @@
 function cariMedian(arr) {
     // you can only write your code here!
-    // median of [3, 5, 4, 4, 1, 1, 2, 3] = 3
     var median = 0;
-
-
     if (arr.length % 2 === 0) { // is even
         // average of two middle numbers
         median = (arr[arr.length / 2 - 1] + arr[arr.length / 2]) / 2;
@@ -11,7 +8,6 @@ function cariMedian(arr) {
         // middle number only
         median = arr[(arr.length - 1) / 2];
     }
-
     return median;
 }
 
