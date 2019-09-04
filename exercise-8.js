@@ -1,6 +1,7 @@
 function tukarBesarKecil(kalimat) {
     // you can only write your code here!
-    // detail char code javascript bisa dilihat disini: https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes
+    /* detail char code javascript bisa dilihat disini: 
+    https://www.cambiaresearch.com/articles/15/javascript-char-codes-key-codes */
     var result = '';
     for (i = 0; i < kalimat.length; i++) {
         if (kalimat.charCodeAt(i) >= 65 && kalimat.charCodeAt(i) <= 90) {
