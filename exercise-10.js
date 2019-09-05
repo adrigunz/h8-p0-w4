@@ -2,7 +2,6 @@ function changeMe(arr) {
     // you can only write your code here!
     var tanggal = new Date();
     var tahunIni = tanggal.getFullYear();
-    var result = [];
     for (var i = 0; i < arr.length; i++) {
         var namaDepan = arr[i][0];
         var namaUjung = arr[i][1];
