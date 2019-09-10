@@ -17,10 +17,10 @@ function highestScore(students) {
         }
     }
 
-    for (var i = 0; i < students.length; i++) {
-        data['name'] = students[i].name;
-        data['score'] = students[i].score;
-        murid[students[i].class] = data;
+    for (var k = 0; k < students.length; k++) {
+        data['name'] = students[k].name;
+        data['score'] = students[k].score;
+        murid[students[k].class] = data;
         data = {};
     }
     return murid;
